@@ -12,24 +12,76 @@
     <div class="row-reverse">
 
       <div class="page flex flex-grow">
-          <header class="sidebar">
+          <header class="sidebar flex-column">
+            
+            <div class="logo">
+    
+              <div class="logo-mobile flex justify-center">
+                <img src="./img/logo-small.svg" alt="" id="logo">
+              </div>
 
-            <div class="logo flex justify-center">
-              <img src="./img/logo-small.svg" alt="" id="logo">
+              <div class="logo-desktop flex">
+                <img src="./img/logo.svg" alt="" id="logo-desktop">
+              </div>
             </div>
 
-            <ul class="menu flex-column item-center">
-              <li class="menu__item"><i class="fa-solid fa-house"></i></li>
-              <li class="menu__item"><i class="fa-solid fa-magnifying-glass"></i></li>
-              <li class="menu__item"><i class="fa-regular fa-bookmark"></i></li>
-            </ul>
+            <div class="cont-menu">
+              <div>
+                <ul class="menu menu-mobile flex-column item-center">
+                  <li class="menu__item"><i class="fa-solid fa-house"></i></li>
+                  <li class="menu__item"><i class="fa-solid fa-magnifying-glass"></i></li>
+                  <li class="menu__item"><img src="./img/libreria.svg" alt="" class="block-image"></li>
+                </ul>
+              </div>
 
-            <div class="playlist-sidebar flex-column item-center flex-grow">
+              <div>
+                <ul class="menu menu-desktop flex-column">
+                  <li class="menu__item icon-home"><i class="fa-solid fa-house icon"></i> Home</li>
+                  <li class="menu__item icon-search"><i class="fa-solid fa-magnifying-glass icon"></i> Cerca</li>
+                  <li class="menu__item icon-library"><img src="./img/libreria.svg" alt="" class="block-image"> La tua libreria</li>
+                </ul>
+              </div>
             </div>
-            <div class="name-author flex-column item-center">
-              <i class="fa-regular fa-circle-down"></i>
-              <i class="fa-regular fa-circle-user"></i>
+            
+
+            <div class="playlist-sidebar flex-grow">
+              <div class="playlist-desktop flex-column">
+                <h4>PLAYLIST</h4>
+                <div class="icon-playlist flex item-center">
+                  <i class="fa-solid fa-square-plus icon-square-plus"></i> 
+                  <span>Crea Playlist</span>
+                </div>
+
+                <ul class="menu flex-column">
+                  <li class="menu__item item-playlist">Nome Playlist</li>
+                  <li class="menu__item item-playlist">Nome Playlist</li>
+                  <li class="menu__item item-playlist">Nome Playlist</li>
+                  <li class="menu__item item-playlist">Nome Playlist</li>
+                  <li class="menu__item item-playlist">Nome Playlist</li>
+                  <li class="menu__item item-playlist">Nome Playlist</li>
+                </ul>
+                </div>
             </div>
+
+            <div class="name-author">
+              <div class="name-mobile flex-column item-center">
+                <i class="fa-regular fa-circle-down"></i>
+                <i class="fa-regular fa-circle-user"></i>
+              </div>
+
+              <div class="name-desktop flex-column">
+                <div class="icon-download flex item-center">
+                  <i class="fa-regular fa-circle-down"></i>
+                  <span>Installa app</span>
+                </div>
+
+                <div class="icon-user flex item-center">
+                  <i class="fa-regular fa-circle-user"></i>
+                  <span>Jhon Doe</span>
+                </div>
+              </div>
+            </div>
+            
           </header>
           <main class="playlist flex-grow"></main>
       </div>
