@@ -11,11 +11,27 @@
   <div id="app">
     <div class="row-reverse">
 
-      <div class="page flex-grow">
-        <div class="row">
-          <header class="sidebar"></header>
+      <div class="page flex flex-grow">
+          <header class="sidebar">
+
+            <div class="logo flex justify-center">
+              <img src="./img/logo-small.svg" alt="" id="logo">
+            </div>
+
+            <ul class="menu flex-column item-center">
+              <li class="menu__item"><i class="fa-solid fa-house"></i></li>
+              <li class="menu__item"><i class="fa-solid fa-magnifying-glass"></i></li>
+              <li class="menu__item"><i class="fa-regular fa-bookmark"></i></li>
+            </ul>
+
+            <div class="playlist-sidebar flex-column item-center flex-grow">
+            </div>
+            <div class="name-author flex-column item-center">
+              <i class="fa-regular fa-circle-down"></i>
+              <i class="fa-regular fa-circle-user"></i>
+            </div>
+          </header>
           <main class="playlist flex-grow"></main>
-        </div>
       </div>
 
       <div class="player">

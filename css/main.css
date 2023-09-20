@@ -59,6 +59,11 @@ img{
   flex-wrap: wrap;
 }
 
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+
 
 #app{
   height: 100vh;
@@ -168,6 +173,32 @@ img{
   transform: translate(-50%, -50%);
   display: none;
 }
+
+.cont-timeline:hover .cont-handle{
+  display: block;
+}
+
+.cont-timeline:hover .timeline__start{
+  background-color: var(--green);
+}
+
+/* SIDEBAR */
+.logo{
+  padding: 10px 0;
+}
+#logo{
+  width: 24px;
+  height: 24px;
+}
+
+.menu-sidebar{
+  margin: auto;
+}
+
+.name-author{
+  gap: 10px;
+}
+
 
 /* MEDIA QUERY */
 
