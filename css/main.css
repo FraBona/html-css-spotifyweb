@@ -20,7 +20,7 @@ a{
 }
 
 img{
-  max-width: 100%;
+  width: 100%;
 }
 
 
@@ -33,7 +33,6 @@ img{
 
 .row{
   display: flex;
-  height: 100%;
 }
 
 .flex {
@@ -69,7 +68,8 @@ img{
   flex-direction: column;
 }
 
-/*.container{
+.container{
+  max-width: 100%;
   padding: 10px 20px;
 }
 
@@ -79,7 +79,7 @@ img{
 
 .margin-row{
   margin: 20px 0px;
-}*/
+}
 
 .col-12{
   flex-basis: 100%;
@@ -121,6 +121,7 @@ img{
   height: 100%;
   overflow: hidden;
   background-color: black;
+  flex-shrink: 0;
 }
 
 .playlist{
@@ -348,6 +349,7 @@ img{
 .main-section{
   margin: 100px 0px;
 }
+
 .main-section__title{
   padding: 10px 0px;
 }
@@ -363,11 +365,13 @@ img{
 }
 
 .card__title > h4{
+  text-align: center;
   font-weight: 700;
   font-size: 18px;
 }
 
 .card__title > p{
+  text-align: center;
   color: rgb(125, 125, 125);
 }
 
