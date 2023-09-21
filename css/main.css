@@ -189,6 +189,12 @@ img{
   position: relative;
 }
 
+.volume{
+  background-color: rgb(95, 95, 95);
+  border-radius: 999px;
+  position: relative;
+}
+
 .timeline__start{
   height: 6px;
   background-color: white;
@@ -213,6 +219,14 @@ img{
 }
 
 .cont-timeline:hover .timeline__start{
+  background-color: var(--green);
+}
+
+.volume:hover .cont-handle{
+  display: block;
+}
+
+.volume:hover .timeline__start{
   background-color: var(--green);
 }
 
@@ -351,12 +365,12 @@ img{
 }
 
 .main-section__title{
-  gap: 10px;
+  gap: 20px;
   padding: 10px 0px;
 }
 
 .main-section__title > p{
-  font-size: 14px;
+  font-size: 22px;
   color: rgb(125, 125, 125);
 }
 
@@ -387,6 +401,26 @@ img{
 
 .circle-image{
   border-radius: 50%;
+}
+
+/* HOVER */
+.nav .menu__item.active{
+  border-left: 2px solid var(--green);
+}
+
+.main-section__title .line-green{
+  position: relative;
+}
+
+.main-section__title .line-green::before{
+  content: '';
+  position: absolute;
+  display: block;
+  height: 10%;
+  width: 60px;
+  background-color: var(--green);
+  bottom: 0;
+  left: 25%;
 }
 
 
