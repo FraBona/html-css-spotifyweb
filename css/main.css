@@ -23,6 +23,9 @@ img{
   max-width: 100%;
 }
 
+.page{
+}
+
 /* UTILITIES */
 .row-reverse{
   display: flex;
@@ -55,6 +58,10 @@ img{
   justify-content: space-between;
 }
 
+.justify-end{
+  justify-content: flex-end;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -79,8 +86,8 @@ img{
   height: auto;
   position: sticky;
   bottom: 0;
-  z-index: 1;
-  overflow: hidden;
+  left: 0;
+  z-index: 100;
 }
 
 .sidebar{
@@ -284,6 +291,32 @@ img{
 
 .icon-user > i{
   font-size: 24px;
+}
+
+/* MAIN */
+.playlist{
+  position: relative;
+}
+
+.upgrade{
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+
+.cont-btn{
+  padding: 0px 10px;
+}
+
+.btn{
+  color: white;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 10px 18px;
 }
 
 
