@@ -104,16 +104,16 @@ img{
   color: white;
 }
 
+.page{
+  overflow: hidden;
+}
+
 .player{
   background-color: rgb(40, 40, 40);
   color: white;
   text-align: center;
   width: 100%;
   height: auto;
-  position: sticky;
-  bottom: 0;
-  left: 0;
-  z-index: 100;
 }
 
 .sidebar{
@@ -126,7 +126,7 @@ img{
 
 .playlist{
   height: 100%;
-  overflow: hidden;
+  overflow: scroll;
   background-color: var(--playlist);
 }
 
@@ -351,10 +351,11 @@ img{
 }
 
 .main-section__title{
+  gap: 10px;
   padding: 10px 0px;
 }
 
-.main-section__title .menu > .menu__item{
+.main-section__title > p{
   font-size: 14px;
   color: rgb(125, 125, 125);
 }
@@ -362,6 +363,10 @@ img{
 .card__title{
   gap: 10px;
   padding: 5px 0px;
+}
+
+.col-12 > p{
+  color: rgb(125, 125, 125);
 }
 
 .card__title > h4{
@@ -373,6 +378,15 @@ img{
 .card__title > p{
   text-align: center;
   color: rgb(125, 125, 125);
+}
+
+.image-card{
+  width: 250px;
+  height: 250px;
+}
+
+.circle-image{
+  border-radius: 50%;
 }
 
 
