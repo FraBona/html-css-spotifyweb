@@ -302,7 +302,8 @@ img{
 }
 
 .icon-square-plus{
-  font-size: 28px;
+  color: rgb(125, 125, 125);
+  font-size: 40px;
 }
 
 .item-playlist{
@@ -446,6 +447,31 @@ img{
 .card__image:hover .icon-hover{
   opacity: 1;
 }
+
+.btn:hover{
+  transform: scale(1.2);
+}
+
+.main-section__title p:hover{
+  color: white;
+}
+
+.menu__item > span:hover{
+  color: white;
+}
+
+.icon-playlist > span:hover{
+  color: white;
+}
+
+.icon-playlist > i:hover{
+  color: white;
+}
+
+.icon-download > span:hover{
+  color: white;
+}
+
 
 
 
