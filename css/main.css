@@ -472,6 +472,14 @@ img{
   color: white;
 }
 
+.cont-icon > i:hover{
+  color: white;
+}
+
+.icon-play:hover{
+  transform: scale(1.2);
+}
+
 
 
 
